@@ -8,7 +8,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConverteMoeda {
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/8455c43dea12d9e5c512f71d/latest/";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/86a42cc1102dd6b28d25a821/latest/";
 
     public static double obterTaxaConversao(String fromCurrency, String toCurrency) throws IOException, InterruptedException {
         String url = API_URL + fromCurrency;
